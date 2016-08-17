@@ -1,1 +1,27 @@
+system:
+  internal_error: "&cAn internal error prevented us from completing your request."
 
+module:
+  module: "&aModule commands: &7info&f, &7reload"
+  module_list: "Modules ({0}): {1}"
+  module_list_separator: "&f, "
+  already_enabled: "&cThe module {0} is already enabled!"
+  enable_success: "&aThe module {0} was enabled in {1}ms!"
+  enable_failure: "&cThe module {0} was unable to be enabled in {1}ms!"
+  already_enabled: "&cThe module {0} is already disabled!"
+  disable_success: "&aThe module {0} was disabled in {1}ms!"
+  disable_failure: "&cThe module {0} was unable to be disabled in {1}ms!"
+  reload_loaded: "&aThe module {0} was loaded in {1}ms!"
+  reload_disabled: "&aThe module {0} was disabled in {1}ms!"
+  reload_success: "&aThe module {0} was reloaded in {1}ms!"
+  reload_failure: "&aThe module {0} was unable to reload in {1}ms!"
+
+script:
+  ran: "&aScript {0} ran in {1} nanoseconds"
+  list: "Scripts: ({0}): {1}"
+  list_seperator: "&f, &e"
+
+teleport:
+  cancelled: "&cYour teleportation was cancelled!"
+  in_one_second: "&aYou will be teleported in &61&a second!"
+  in_seconds: "&aYou will be teleported in &6{0}&a seconds!"
