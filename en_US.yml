@@ -25,3 +25,41 @@ teleport:
   cancelled: "&cYour teleportation was cancelled!"
   in_one_second: "&aYou will be teleported in &61&a second!"
   in_seconds: "&aYou will be teleported in &6{0}&a seconds!"
+
+chat:
+  must_enable_chat: "&cYou must enable your chat in &e/settings&c to talk!"
+
+combattag:
+  check_self_not_tagged: "&aYou are not combat-tagged, it's safe to teleport or log out!"
+  check_other_not_tagged: "&a{0} is not combat-tagged, it's safe for them to teleport or log out!"
+  check_self_tagged: "&cYou are combat-tagged! You won't be able to teleport, and logging out will mean your death!"
+  check_other_tagged: "&c{0} is tagged! They won't be able to teleport, and logging out will mean their death!"
+  remove_self_not_tagged: "&cYou are not combat-tagged."
+  remove_other_not_tagged: "&c{0} is not combat-tagged."
+  remove_self: "&aYou cleared your combat-tag."
+  remove_other: "&a{0}'s combat-tag was cleared."
+  tagged_you_attacked: "&6You were combat-tagged for attacking {0}! &eDon't log out!"
+  tagged_damaged: "&6You were combat-tagged by {0}! &eDon't log out!"
+  no_teleport: "&cYou cannot teleport while combat-tagged."
+  killed_enemy: "&6{0} tried to combat-log on you with {0} remaining tag time, but they were slain by combat-tag."
+
+clearinventory:
+  self_combat_tagged: "&cYou cannot clear your inventory while combat-tagged!"
+  self: "&aYou cleared your inventory!"
+  cleared_single: "&aCleared {0}'s inventory."
+  cleared_multi: "&aCleared {0} inventories, belonging to {1}."
+
+control:
+  ipof_specify_player: "&cSpecify a player to check the IP of."
+  ipof_self: "&aYour IP address: &7{0}"
+  ipof_other: "&a{0}'s IP address: &7{1}"
+  lift_specify_punishment: "&cSpecify a punishment to lift."
+  lift_not_timed: "&cPunishment #{0} cannot be lifted, because it is not a timed punishment. It is a {1}."
+  lift_already_expired: "&cPunishment #{0} cannot be lifted, because it is already expired."
+  lift_lifted: "&aPunishment #{0} was lifted."
+  nameof_use: "&aYour name: &7{0}"
+  nameof_other: "&aSomeone's name: &7{0}"
+  notes_usage: "&9Notes:<n>&7You can add a note to a player, an IP, a punishment, or a string.<n>&9/note add&7: Adds a note to the specified target. @Player, 127.0.0.1, #0, or @String.<n>&9/note list&7: Lists the attached notes."
+  notes_specify_text: "&cPlease specify text for your note."
+  notes_added: "&aAdded note #{1} to {0}."
+  notes_none: "&cNo notes found."
