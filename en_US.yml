@@ -1,6 +1,6 @@
 achievements-must-be-player: "&cYou must be a player to display your goals"
 backpacks-forward: "&dNext Page"
-backpacks-invalid-page: "&cInvalid backpack page: {0}"
+backpacks-invalid-page: "&cInvalid backpack page: {0}. You have {1} pages"
 backpacks-must-be-player: "&cYou must be a player to open a backpack"
 backpacks-prev: "&dPrevious Page"
 backpacks-title: "Backpack"
